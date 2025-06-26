@@ -7,7 +7,7 @@ function Ask() {
   const [question, setQuestion] = useState("");
   const [refresh, setRefresh] = useState(false);
 
-  const API_KEY = "AIzaSyBWxvwBVEqwS-DBsAOwotWIcSq9ZJnA864";
+  const API_KEY = "AIzaSyBWxvwBVEqwS-DBsAOwotWIcSq9ZJnA864"; // Use your own Api key or hit for trial purpose. 
 
   const FetchAnswer = async () => {
     try {
